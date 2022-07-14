@@ -1,0 +1,133 @@
+/* основной цвет текста #212121 */
+/* второй цвет текста #757575 */
+/* акцент #2196F3 */
+/* белый цвет #FFFFFF */
+/* цвет фонов hero и footer #2F303A */
+
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-logo-color: #FFFFFF;
+}
+
+body {
+    color: var(--primary-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* logo */
+
+.logo {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.half-logo {
+    color: var(--accent-color);
+}
+
+.footer-logo {
+    text-decoration: none;
+    color: var(--white-logo-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo:hover {
+    color: var(--accent-color);
+}
+
+.footer-logo:hover {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.link.pointer {
+    cursor: pointer;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color)
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* contacts */
+
+.contacts .link {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* footer */
+
+.address-background {
+    background-color: #2F303A
+}
+
+.address-contacts .address-location {
+    color: var(--white-logo-color);
+}
+
+.address-contacts .address-email {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-contacts .address-phone {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-contacts :hover,
+.address-contacts :focus {
+    color: var(--accent-color);
+}
+
+.address-contacts .address-location,
+.address-contacts .address-email,
+.address-contacts .address-phone {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}

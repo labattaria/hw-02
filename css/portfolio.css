@@ -1,0 +1,43 @@
+.link.current {
+    color: #2196F3
+}
+
+/* buttons */
+
+.button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    font-family: inherit;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.button.pointer {
+    cursor: pointer;
+}
+
+.works .description {
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.works .title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
